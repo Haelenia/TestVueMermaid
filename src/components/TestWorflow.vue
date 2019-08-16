@@ -19,8 +19,8 @@
           },
           { id: "2", text: "Pause" },
           { id: "3", text: "Terminée", next: ["4"], link: "-- blabla -->" },
-          { id: "4", text: "Débrief", next: ["5"] },
-          { id: "5", text: "Double Débrief", next: ["6", "4"] },
+          { id: "4", text: "Débrief", next: ["5", "3"] },
+          { id: "5", text: "Double Débrief", next: ["6"] },
           { id: "6", text: "F", edgeType: "circle"}
         ]
       };
